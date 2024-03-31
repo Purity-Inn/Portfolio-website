@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    background-color: rgba(225, 218, 218, 0.822);
+}
+
+ul{
+    display: flex;
+    align-items: center; /*top to bottom */
+    justify-content: space-evenly; /*left to right*/
+    background-color: gray;
+    padding: 20px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+.homepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.description{
+    width: 50%;
+    font-size: 1.5rem;
+    line-height: 30px;
+    padding: 20px;
+}
